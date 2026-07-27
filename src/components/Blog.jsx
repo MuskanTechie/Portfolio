@@ -53,7 +53,7 @@ function Blog() {
 
 
 
-          <a href="#" className="blog-btn">
+          <a href="/#" className="blog-btn">
             Read Article
           </a>
 

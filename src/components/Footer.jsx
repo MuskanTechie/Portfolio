@@ -13,11 +13,11 @@ function Footer() {
         </p>
 
         <div className="footer-links">
-          <a href="https://github.com/MuskanTechie" target="_blank">
+          <a href="https://github.com/MuskanTechie" target="_blank" rel="noreferrer">
             GitHub
           </a>
 
-          <a href="https://www.linkedin.com/in/muskan-fatima-46339734a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+          <a href="https://www.linkedin.com/in/muskan-fatima-46339734a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
 

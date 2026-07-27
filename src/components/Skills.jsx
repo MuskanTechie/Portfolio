@@ -15,7 +15,6 @@ import {
 import {
   SiExpress,
   SiMongodb,
-  SiPostman,
 } from "react-icons/si";
 
 function Skills() {
