@@ -1,0 +1,188 @@
+.home {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background-color: #e0f2fe;
+  padding: 50px 80px;
+}
+
+
+.home-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+/* Left Content */
+
+.home-content {
+  flex: 1;
+}
+
+
+.intro {
+  font-size: 22px;
+  color: #0369a1;
+  margin-bottom: 10px;
+}
+
+
+.home-content h1 {
+  font-size: 52px;
+  color: #0f172a;
+  margin: 10px 0;
+}
+
+
+.home-content h2 {
+  font-size: 30px;
+  color: #0284c7;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+/* Description */
+
+.description {
+  font-size: 17px;
+  color: #475569;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+
+
+/* Buttons */
+
+.home-buttons {
+  margin-top: 30px;
+}
+
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+
+.primary-btn {
+  background-color: #0284c7;
+  color: white;
+}
+
+
+.primary-btn:hover {
+  background-color: #0369a1;
+  transform: translateY(-5px);
+}
+
+
+.secondary-btn {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+}
+
+
+.secondary-btn:hover {
+  background-color: #0284c7;
+  color: white;
+  transform: translateY(-5px);
+}
+
+
+
+/* Right Image */
+
+.home-image {
+  flex: 1;
+  text-align: center;
+}
+
+
+.home-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #0284c7;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+  animation: float 3s ease-in-out infinite;
+}
+
+
+
+/* Image Animation */
+
+@keyframes float {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width: 768px) {
+
+  .home {
+    padding: 40px 20px;
+  }
+
+
+  .home-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+
+  .home-content h1 {
+    font-size: 38px;
+  }
+
+
+  .home-content h2 {
+    font-size: 24px;
+  }
+
+
+  .home-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+
+  .description {
+    margin: auto;
+  }
+
+
+  .primary-btn,
+  .secondary-btn {
+    margin: 8px;
+  }
+
+}

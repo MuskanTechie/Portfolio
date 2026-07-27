@@ -1,0 +1,210 @@
+.experience {
+
+  padding:90px 8%;
+
+  background:#f8fbff;
+
+  text-align:center;
+
+}
+
+
+.section-title {
+
+  font-size:42px;
+
+  color:#0f172a;
+
+  margin-bottom:15px;
+
+}
+
+
+.section-subtitle {
+
+  color:#64748b;
+
+  margin-bottom:50px;
+
+}
+
+
+
+.experience-card {
+
+  max-width:850px;
+
+  margin:auto;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  text-align:left;
+
+  box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+  transition:.4s;
+
+}
+
+
+
+.experience-card:hover {
+
+  transform:translateY(-10px);
+
+  box-shadow:0 20px 45px rgba(2,132,199,.18);
+
+}
+
+
+
+.experience-badge {
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  background:linear-gradient(135deg,#0284c7,#2563eb);
+
+  color:white;
+
+  padding:9px 20px;
+
+  border-radius:30px;
+
+  font-size:14px;
+
+  font-weight:600;
+
+  margin-bottom:20px;
+
+}
+
+
+
+.experience-card h2 {
+
+  color:#0284c7;
+
+  font-size:30px;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.duration {
+
+  color:#64748b;
+
+  font-weight:600;
+
+}
+
+
+
+.experience-description {
+
+  color:#475569;
+
+  line-height:1.8;
+
+  margin-top:20px;
+
+}
+
+
+
+.experience-card h3 {
+
+  color:#0f172a;
+
+  margin-top:30px;
+
+}
+
+
+
+.responsibilities {
+
+  padding-left:20px;
+
+}
+
+
+
+.responsibilities li {
+
+  color:#475569;
+
+  margin:12px 0;
+
+  line-height:1.6;
+
+}
+
+
+
+.experience-tags {
+
+  margin-top:20px;
+
+}
+
+
+
+.experience-tags span {
+
+  display:inline-block;
+
+  background:#e0f2fe;
+
+  color:#0369a1;
+
+  padding:9px 18px;
+
+  border-radius:30px;
+
+  margin:5px;
+
+  font-size:14px;
+
+  font-weight:600;
+
+  transition:.3s;
+
+}
+
+
+
+.experience-tags span:hover {
+
+  background:#0284c7;
+
+  color:white;
+
+}
+
+
+
+@media(max-width:768px){
+
+  .experience-card{
+
+    padding:25px;
+
+  }
+
+
+  .experience-card h2{
+
+    font-size:24px;
+
+  }
+
+}
